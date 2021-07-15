@@ -15,13 +15,13 @@ function __init__()
     JLLWrappers.@init_library_product(
         libOpenCL,
         "lib/libOpenCL.so",
-        nothing,
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libamdocl,
         "lib/libamdocl64.so",
-        nothing,
+        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
