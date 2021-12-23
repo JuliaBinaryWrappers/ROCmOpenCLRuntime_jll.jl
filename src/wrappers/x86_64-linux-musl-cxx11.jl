@@ -2,6 +2,7 @@
 export libOpenCL, libamdocl
 
 using hsa_rocr_jll
+using hsakmt_roct_jll
 using ROCmDeviceLibs_jll
 using ROCmCompilerSupport_jll
 using Libglvnd_jll
@@ -11,10 +12,10 @@ JLLWrappers.@generate_wrapper_header("ROCmOpenCLRuntime")
 JLLWrappers.@declare_library_product(libOpenCL, "libOpenCL.so.1")
 JLLWrappers.@declare_library_product(libamdocl, "libamdocl64.so")
 function __init__()
-    JLLWrappers.@generate_init_header(hsa_rocr_jll, ROCmDeviceLibs_jll, ROCmCompilerSupport_jll, Libglvnd_jll, Xorg_libX11_jll, Xorg_xorgproto_jll)
+    JLLWrappers.@generate_init_header(hsa_rocr_jll, hsakmt_roct_jll, ROCmDeviceLibs_jll, ROCmCompilerSupport_jll, Libglvnd_jll, Xorg_libX11_jll, Xorg_xorgproto_jll)
     JLLWrappers.@init_library_product(
         libOpenCL,
-        "lib/libOpenCL.so",
+        "lib64/libOpenCL.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
