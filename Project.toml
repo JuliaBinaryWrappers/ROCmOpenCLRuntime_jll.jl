@@ -1,6 +1,6 @@
 name = "ROCmOpenCLRuntime_jll"
 uuid = "10ae2a08-2eea-53f8-8c20-eec175020e9f"
-version = "4.2.0+0"
+version = "4.2.0+1"
 
 [deps]
 Libglvnd_jll = "7e76a0d4-f3c7-5321-8279-8d96eeed0f29"
