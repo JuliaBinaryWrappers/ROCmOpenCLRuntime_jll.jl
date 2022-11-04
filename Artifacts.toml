@@ -1,20 +1,20 @@
 [[ROCmOpenCLRuntime]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b11724c6fb1e11d4850a9811687e307a9d1ce215"
+git-tree-sha1 = "dfba298f81abd3d54cc71bb6f4408a2286fb20e8"
 libc = "glibc"
 os = "linux"
 
     [[ROCmOpenCLRuntime.download]]
-    sha256 = "ba81dec68420c6116a929bf0f08603dc4689486990677b34103651ddec4cb799"
-    url = "https://github.com/JuliaBinaryWrappers/ROCmOpenCLRuntime_jll.jl/releases/download/ROCmOpenCLRuntime-v4.2.0+3/ROCmOpenCLRuntime.v4.2.0.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "aeb5b24d42e157fbe6c8c45edb12b71dec6c04a266548e5524e83be37dd53527"
+    url = "https://github.com/JuliaBinaryWrappers/ROCmOpenCLRuntime_jll.jl/releases/download/ROCmOpenCLRuntime-v5.2.3+1/ROCmOpenCLRuntime.v5.2.3.x86_64-linux-gnu-cxx11.tar.gz"
 [[ROCmOpenCLRuntime]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4cef3586c1b2995533df4ddf5826e37d756df712"
+git-tree-sha1 = "3fe49078ce6cb7287e34ad3c61f3867c8c846e7d"
 libc = "musl"
 os = "linux"
 
     [[ROCmOpenCLRuntime.download]]
-    sha256 = "c30bd9f1535583037e0934b83e33a98b70e5997063a02aa7f5d0455eb3908623"
-    url = "https://github.com/JuliaBinaryWrappers/ROCmOpenCLRuntime_jll.jl/releases/download/ROCmOpenCLRuntime-v4.2.0+3/ROCmOpenCLRuntime.v4.2.0.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "ab2f98913065b8f080a9e785ba0734cf5a9e1cb4b3f588d69f8ae2229da9b0b2"
+    url = "https://github.com/JuliaBinaryWrappers/ROCmOpenCLRuntime_jll.jl/releases/download/ROCmOpenCLRuntime-v5.2.3+1/ROCmOpenCLRuntime.v5.2.3.x86_64-linux-musl-cxx11.tar.gz"
